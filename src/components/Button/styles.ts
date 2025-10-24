@@ -11,7 +11,12 @@ export const ButtonContainer = styled.button`
     border-radius: 21px;
 
     &:hover {
-        opacity: 0.6;
-        cursor:pointer;
+        background-color: #b822e6ff;
+        cursor: pointer;
+    }
+
+    &:disabled {
+        opacity: 0.3;
+        cursor: not-allowed;
     }
 `

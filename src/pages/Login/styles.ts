@@ -11,7 +11,7 @@ export const Container = styled.div`
     align-items: center;
 `
 
-export const LoginContainer = styled.div`
+export const LoginContainer = styled.form`
     width: 100%;
     max-width: 420px;
     background-color: #FFFFFF;
